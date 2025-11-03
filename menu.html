@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Conception d'Expérience</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="menu.js"></script>
+</head>
+<header>
+    <nav>
+        <div>
+            <a class="cafe-name" href="index.html"> <b>Cafe Conception d'Expérience ☕</b></a>
+        </div>
+        <div class="header-buttons">
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+            <a href="reviews.html">Reviews</a>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="menu-container">
+        <div class="menu-h2">
+            <h2>Menu</h2>
+        </div>
+        <div class="menu-row">
+            <div class="Top3">
+                <h2>Our Top 3 Drinks</h2>
+                <ol>
+                    <li>Foundations Drip Coffee</li>
+                    <li>Information Latte</li>
+                    <li>#8ba888 (Matcha) Latte</li>
+                </ol>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column-left-menu">
+                <div class="coffee">
+                    <h3>Coffee</h3>
+                    <ul>
+                        <li>Foundations Drip Coffee ☕</li>
+                        <ul>
+                            <li>Costa Rica: <i>Cinnamon Roll, Cacao Nibs, Apple Cider, White Grape</i></li>
+                            <li>Colombia: <i>Blueberry yogurt, bubble gum, vanilla</i></li>
+                        </ul>
+                        <li>Information Latte 📚</li>
+                        <ul>
+                            <li>Iced</li>
+                            <li>Hot</li>
+                        </ul>
+                        <li>Figma Americano 🧩</li>
+                        <li>Typography Cappuccino 🔠</li>
+                        <li>Usability Macchiato 📱</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column-right-menu">
+                <div class="tea">
+                    <h3>Tea</h3>
+                    <ul>
+                        <li>#8ba888 (Matcha) Latte 🍵</li>
+                        <li>#9a87b8 (London Fog) Latte ☁️</li>
+                        <li>#e9a447 (Turmeric) Latte 🧡</li>
+                        <li>#e1ccb1 (Chai) Latte 🫖</li>
+                        <li>#efd6da (Rose) Latte 🌷</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="random-tea">
+                <h3>Can't decide? Use our Random Tea Generator:</h3>
+                <div class="row">
+                    <div class="answer">
+                        <button id="clickhere" class="menu-button" onclick="get_answer()">Click Here</button>
+                        <p id="suggestion"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer class="footer">
+    <div>
+        <p id="copyright">Copyright &copy; 2025 by Jolie Ren</p>
+    </div>
+</footer>
+
+</html>
